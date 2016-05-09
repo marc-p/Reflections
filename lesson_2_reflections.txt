@@ -22,10 +22,13 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 	It shows the relationship between the various branches, and the timeline.
-	
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The merged branch will contain all of the changes from both branches. 
+	We represent it as having 2 masters, which it does. All of the commits from
+	both branches are part of it now.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually
