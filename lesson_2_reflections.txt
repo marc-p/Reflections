@@ -21,6 +21,8 @@ organized? How would branches help?
 	release points, you can get back to that exact point to fix a bug.
 
 How do the diagrams help you visualize the branch structure?
+	It shows the relationship between the various branches, and the timeline.
+	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
