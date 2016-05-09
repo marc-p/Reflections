@@ -5,4 +5,10 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	Doing a pull could potentially overwrite some local files that you have been working on but haven't committed yet.
 	Also you may want to wait for particular set of commits on the remote to be completed before merging with your own.
-	
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	A branch is part of the project. It may contain any sort of changes. Use it for changes that are 'part of' the original project.
+	A clone is a complete copy of a project in a new location with a new name. The link to the old project is broken. Use it
+	when creating a new version of something - for example you may have a template for a website or DLL that you use over and over
+	when creating new projects. 
+	A fork is a way of creating a new project, based on another, on GitHub. Its a clone which includes a reference back to the original project.
