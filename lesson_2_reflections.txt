@@ -30,7 +30,10 @@ the diagram the way we do?
 	We represent it as having 2 masters, which it does. All of the commits from
 	both branches are part of it now.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Gits automatic merging vs. always doing merges
 manually
 
-
+	Git does the easy merges (things that are unique) automatically, which means that 
+	most changes are merged without needing any input. Manual merges are only required when
+	there is some overlap between the two commits. This minimizes the amount of work
+	needed for a commit, only the potential problems are flagged.
