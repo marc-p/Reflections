@@ -12,3 +12,8 @@ Describe the differences between forks, clones, and branches. When would you use
 	when creating a new version of something - for example you may have a template for a website or DLL that you use over and over
 	when creating new projects. 
 	A fork is a way of creating a new project, based on another, on GitHub. Its a clone which includes a reference back to the original project.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	this allows you to view/edit/merge the remote at your leisure and ensures that you still have everything, even
+	if you aren't currently using the remote version. Git status will be aware of the differences.
+	
